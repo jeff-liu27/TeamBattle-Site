@@ -1,0 +1,55 @@
+---
+layout: default
+title: Team
+body_class: no-sidebar
+permalink: /team/
+---
+
+<section id="main">
+    <div class="container">
+        <div id="content">
+            <header>
+                <h2>Our Team</h2>
+                <p>Meet the researchers behind BATTLE</p>
+            </header>
+
+            <!-- Staff Section -->
+            <section class="team-section">
+                <h3 class="section-title">Principal Investigators & Staff</h3>
+                <div class="team-grid staff-grid">
+                    {% assign staff = site.data.bio | where: "type", "staff" | sort: "order" %}
+                    {% for member in staff %}
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="{{ '/assets/images/' | append: member.photo | relative_url }}" alt="{{ member.name }}" />
+                        </div>
+                        <div class="member-info">
+                            <h4>{{ member.name }}</h4>
+                            <p class="member-title">{{ member.title }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <!-- Team Members Section -->
+            <section class="team-section">
+                <h3 class="section-title">Research Team Members</h3>
+                <div class="team-grid members-grid">
+                    {% assign members = site.data.bio | where: "type", "member" | sort: "order" %}
+                    {% for member in members %}
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <img src="{{ '/assets/images/' | append: member.photo | relative_url }}" alt="{{ member.name }}" />
+                        </div>
+                        <div class="member-info">
+                            <h4>{{ member.name }}</h4>
+                            <p class="member-title">{{ member.title }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+    </div>
+</section>

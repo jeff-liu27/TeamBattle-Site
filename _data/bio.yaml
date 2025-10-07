@@ -1,0 +1,112 @@
+# Mentors
+- name: "Dr. Seth Dickey"
+  type: staff
+  order: 1
+  title: "Experimental Group Mentor"
+  photo: "dickey.png"
+
+- name: "Dr. Joshua Weitz"
+  type: staff
+  order: 2
+  title: "Computational Group Mentor"
+  photo: "weitz.png"
+
+- name: "Celina McDonald"
+  type: staff
+  order: 3
+  title: "Team Librarian"
+  photo: "celina.png"
+
+# Team Members
+- name: "Omar Abuhashish"
+  type: member
+  order: 1
+  title: "Web Liason"
+  photo: "phage_clipart.png"
+
+- name: "Ria Anand"
+  type: member
+  order: 2
+  title: "Ombudsperson"
+  photo: "phage_clipart.png"
+
+- name: "Shreyas Bachu"
+  type: member
+  order: 3
+  title: "Mentor Liason"
+  photo: "phage_clipart.png"
+
+- name: "Gi'Asia Cesar"
+  type: member
+  order: 4
+  title: "Financial Liason"
+  photo: "phage_clipart.png"
+
+- name: "Ray Chen"
+  type: member
+  order: 5
+  title: "Web Liason"
+  photo: "phage_clipart.png"
+
+
+- name: "Fortune Ezeogu"
+  type: member
+  order: 6
+  title: "Team Clerk"
+  photo: "phage_clipart.png"
+
+
+- name: "Rishan Gangar"
+  type: member
+  order: 7
+  title: "Library Liason"
+  photo: "phage_clipart.png"
+
+
+- name: "George Goodwin"
+  type: member
+  order: 8
+  title: "Team Clerk"
+  photo: "phage_clipart.png"
+
+
+- name: "Phanishree Gunukula"
+  type: member
+  order: 9
+  title: "HR"
+  photo: "phage_clipart.png"
+
+
+- name: "Kay Latt"
+  type: member
+  order: 10
+  title: "Mentor Liason"
+  photo: "phage_clipart.png"
+
+
+- name: "Jeffery Liu"
+  type: member
+  order: 11
+  title: "Web Liason"
+  photo: "phage_clipart.png"
+
+
+- name: "Adam Mustafa"
+  type: member
+  order: 12
+  title: "Team Liason"
+  photo: "phage_clipart.png"
+
+
+- name: "Eric Severin"
+  type: member
+  order: 13
+  title: "Lab Liason"
+  photo: "phage_clipart.png"
+
+
+- name: "Benjamin Zullo"
+  type: member
+  order: 14
+  title: "Financial Liason"
+  photo: "phage_clipart.png"

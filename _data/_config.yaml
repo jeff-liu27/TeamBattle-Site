@@ -1,0 +1,30 @@
+# Site settings
+title: BATTLE
+description: Deep learning for enhanced phage therapy
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # Replace with your GitHub Pages URL
+email: teambattle.gems@gmail.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  team:
+    output: false
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
