@@ -1,8 +1,12 @@
 # Site settings
 title: BATTLE
 description: Deep learning for enhanced phage therapy
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # Replace with your GitHub Pages URL
+# Use blank baseurl and local server when testing locally
+# baseurl: "" 
+# url: "http://localhost:4000"
+baseurl: "/TeamBattle-Site"
+url: "https://phagebattle.com/"
+
 email: teambattle.gems@gmail.com
 
 # Build settings

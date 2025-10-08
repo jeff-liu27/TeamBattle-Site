@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>{{ page.title }} - BATTLE</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+</head>
+<body class="{{ page.body_class }} is-preload">
+    <div id="page-wrapper">
+
+        <section id="header">
+            <div class="container">
+
+                <h1 id="logo"><a href="{{ '/' | relative_url }}">BATTLE</a></h1>
+                <p>Deep learning for enhanced phage therapy</p>
+
+                <nav id="nav">
+                    <ul>
+                        <li><a class="icon solid fa-home {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}"><span>Home</span></a></li>
+                        <li><a class="icon solid fa-users {% if page.url == '/team/' %}active{% endif %}" href="{{ '/team/' | relative_url }}"><span>Team</span></a></li>
+                        <li><a class="icon solid fa-clock {% if page.url == '/timeline/' %}active{% endif %}" href="{{ '/timeline/' | relative_url }}"><span>Timeline</span></a></li>
+                        <li><a class="icon solid fa-flask {% if page.url == '/research/' %}active{% endif %}" href="{{ '/research/' | relative_url }}"><span>Research</span></a></li>
+                        <li><a class="icon solid fa-envelope {% if page.url == '/contact/' %}active{% endif %}" href="{{ '/contact/' | relative_url }}"><span>Contact</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        {{ content }}
+
+        <section id="footer">
+            <div class="container">
+                <div id="copyright" class="container">
+                    <ul class="links">
+                        <li>&copy; {{ 'now' | date: "%Y" }} BATTLE Research Group. All rights reserved.</li>
+                        <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>

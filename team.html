@@ -10,12 +10,10 @@ permalink: /team/
         <div id="content">
             <header>
                 <h2>Our Team</h2>
-                <p>Meet the researchers behind BATTLE</p>
             </header>
 
-            <!-- Staff Section -->
             <section class="team-section">
-                <h3 class="section-title">Principal Investigators & Staff</h3>
+                <h3 class="section-title">Mentors</h3>
                 <div class="team-grid staff-grid">
                     {% assign staff = site.data.bio | where: "type", "staff" | sort: "order" %}
                     {% for member in staff %}
@@ -32,7 +30,6 @@ permalink: /team/
                 </div>
             </section>
 
-            <!-- Team Members Section -->
             <section class="team-section">
                 <h3 class="section-title">Research Team Members</h3>
                 <div class="team-grid members-grid">
